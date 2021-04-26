@@ -1,0 +1,21 @@
+INFO:rasa_nlu.training_data.loading:Training data format of ./data/nlu.md is md
+INFO:rasa_nlu.training_data.training_data:Training data stats: 
+	- intent examples: 32 (4 distinct intents)
+	- Found intents: 'latest_news_phones_laptops', 'goodbye', 'buy_phone_laptop', 'greet'
+	- entity examples: 16 (1 distinct entities)
+	- found entities: 'category'
+
+INFO:rasa_nlu.training_data.loading:Training data format of ./data/nlu.md is md
+INFO:rasa_nlu.training_data.training_data:Training data stats: 
+	- intent examples: 32 (4 distinct intents)
+	- Found intents: 'latest_news_phones_laptops', 'buy_phone_laptop', 'goodbye', 'greet'
+	- entity examples: 16 (1 distinct entities)
+	- found entities: 'category'
+
+INFO:rasa_nlu.training_data.loading:Training data format of ./data/nlu.md is md
+INFO:rasa_nlu.training_data.training_data:Training data stats: 
+	- intent examples: 32 (4 distinct intents)
+	- Found intents: 'latest_news_phones_laptops', 'buy_phone_laptop', 'greet', 'goodbye'
+	- entity examples: 16 (1 distinct entities)
+	- found entities: 'category'
+

@@ -1,0 +1,60 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_courses
+- action_courses
+- utter_my_name_is
+- utter_default
+- utter_thank
+- utter_bye
+- utter_ask_register_online
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- courses:
+    use_entities: true
+- my_name_is:
+    use_entities: true
+- thank:
+    use_entities: true
+- bye:
+    use_entities: true
+- ask_register_online:
+    use_entities: true
+slots:
+  REG:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_register_online:
+  - text: You can {REG} by paying Rs 5000. You can pay using Payment wallets, Net
+      Banking. Also you need to send your details:- Name, Ph No, Email ID, Technology
+      in which you want to enroll, father's name and address. You can message these
+      details to 9779444127.
+  utter_bye:
+  - text: It was nice talking to you
+  - text: Bye
+  utter_courses:
+  - text: We provide all Mobile App development, web development and data science
+      courses
+  - text: We provide all IT courses.
+  utter_default:
+  - text: I didn't understand
+  utter_greet:
+  - text: Hello, What is your name?
+  - text: Hi, your name please!
+  utter_my_name_is:
+  - text: 'Nice to meet you {person} '
+  - text: 'Nice name {person} '
+  utter_thank:
+  - text: welcome

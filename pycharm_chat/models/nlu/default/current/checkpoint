@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Archana\\Desktop\\rasa_testing\\pycharm_chat\\models/nlu\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Archana\\Desktop\\rasa_testing\\pycharm_chat\\models/nlu\\default\\current\\component_5_EmbeddingIntentClassifier.ckpt"
